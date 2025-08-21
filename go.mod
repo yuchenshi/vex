@@ -3,7 +3,7 @@ module github.com/mjl-/vex
 go 1.23.0
 
 require (
-	github.com/mjl-/bstore v0.0.8
+	github.com/mjl-/bstore v0.0.10
 	github.com/mjl-/sconf v0.0.6
 	github.com/prometheus/client_golang v1.14.0
 )
@@ -17,7 +17,7 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	go.etcd.io/bbolt v1.3.11 // indirect
+	go.etcd.io/bbolt v1.3.12 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
