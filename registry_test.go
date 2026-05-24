@@ -313,7 +313,7 @@ func TestRegistry(t *testing.T) {
 
 	checkRequest(reg, true, "GET", "/v2/", nil, nil, http.StatusOK, nil, "")
 	checkRequest(reg, true, "GET", "/v2/_catalog", nil, nil, http.StatusOK, nil, "")
-	checkRequest(reg, true, "GET", "/v2/testrepo/list/tags", nil, nil, http.StatusOK, nil, "")
+	checkRequest(reg, true, "GET", "/v2/testrepo/tags/list", nil, nil, http.StatusOK, nil, "")
 	checkRequest(reg, true, "GET", "/v2/testrepo/manifests/image", nil, nil, http.StatusOK, nil, "")
 	checkRequest(reg, true, "GET", "/v2/testrepo/manifests/imagedup", nil, nil, http.StatusOK, nil, "")
 	checkRequest(reg, true, "GET", "/v2/testrepo/manifests/list", nil, nil, http.StatusOK, nil, "")

@@ -179,7 +179,7 @@ var registryPaths = []registryPath{
 	{Name: "registryCatalog", Regexp: regexp.MustCompile(`^/v2/_catalog$`),
 		Get: registry.catalog},
 
-	{Name: "registryTags", Regexp: regexp.MustCompile(`^/v2/([a-z0-9]+(?:[\._-][a-z0-9]+)*)/list/tags$`),
+	{Name: "registryTags", Regexp: regexp.MustCompile(`^/v2/([a-z0-9]+(?:[\._-][a-z0-9]+)*)/tags/list$`),
 		Get: registry.tags},
 
 	// The element after manifests can be a tag, or a digest.
